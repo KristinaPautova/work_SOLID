@@ -6,8 +6,12 @@ class Parent extends Person {
         this.whoWork = whoWork;
     }
 
-    setwhoWork(whoWork){
+    setWhoWork(whoWork) {
         this.whoWork = whoWork
+    }
+
+    getWhoWork() {
+      return this.whoWork;
     }
 
 }

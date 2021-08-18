@@ -8,7 +8,15 @@ class TeacherRole {
         this.subject = subject;
     }
 
+    getSubject() {
+       return  this.subject
+    }
+
     setTeacher(teacher) {
         this.teacher = teacher;
+    }
+
+    getTeacher() {
+        return  this.teacher
     }
 }

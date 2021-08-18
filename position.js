@@ -3,11 +3,19 @@ class position  {
         this.quote = quote;
         this.name = name;
     }
-    setQuote(quote){
+    setQuote(quote) {
         this.quote = quote
     }
 
-    setName(name){
+    getQuote() {
+        return this.quote
+    }
+
+    setName(name) {
         this.name = name;
+    }
+
+    getName() {
+        return this.name
     }
 }

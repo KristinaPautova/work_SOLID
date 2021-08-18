@@ -3,17 +3,25 @@ const Person = require('./person')
 class Teacher extends Person {
     constructor(salaries,position,subjects,studentGroup) {
         super(name, contact, isActive, dateOfBirth);
-        this.subjects = [];
-        this.studentGroup = [];
         this.salaries = salaries;
         this.position = position;
+        this.subjects = [];
+        this.studentGroup = [];
     }
 
     setSalaries(salaries) {
         this.salaries = salaries;
     }
 
+    getSalaries() {
+        return this.salaries;
+    }
+
     setPosition(position) {
         this.position = position;
+    }
+
+    getPosition() {
+        return this.position
     }
 }

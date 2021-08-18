@@ -6,33 +6,33 @@
         this.dateOfBirth = null
     }
 
-    setName(name){
+    setName(name) {
         this.name = name
     }
-    getName(){
+    getName() {
       return this.name
     }
 
-    setContact(contact){
+    setContact(contact) {
         this.contact = contact
     }
-    getContact(){
+    getContact() {
         return this.contact
     }
 
-    setIsActive(){
+    setIsActive() {
         this.isActive = !this.isActive
     }
 
-    getIsActive(){
+    getIsActive() {
         return this.isActive
     }
 
-    setDateOfBirth(dateOfBirth){
+    setDateOfBirth(dateOfBirth) {
         this.dateOfBirth = dateOfBirth
     }
 
-    getDatedateOfBirth(){
+    getDateOfBirth() {
         return this.dateOfBirth
     }
 

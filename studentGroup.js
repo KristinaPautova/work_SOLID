@@ -8,27 +8,45 @@ class StudentGroup {
         this.students = [];
     }
 
-    setLevel(level){
+    setLevel(level) {
         this.level = level;
     }
 
-    setGroupNumber(groupNumber){
-        this.groupNumber = groupNumber
+    getLevel() {
+        return this.level
     }
 
-    setStudents(student){
-        this.student = student
+    setGroupNumber(groupNumber) {
+        this.groupNumber = groupNumber;
     }
 
-    setTeacherRoles(teacher){
-        this.teacher = teacher
+    getGroupNumber() {
+        return this.groupNumber;
+    }
+
+    setStudents(student) {
+        this.student = student;
     }
 
     addStudent(student) {
         this.students.push(student);
     }
 
-    addTeacherRole(teacher){
+    getStudents() {
+        return this.students
+    }
+
+    setTeacherRoles(teacher) {
+        this.teacher = teacher
+    }
+
+
+    addTeacherRole(teacher) {
         this.teacherRoles.push(teacher)
     }
+
+    getTeacherRoles() {
+        return this.teacherRoles
+    }
+
 }

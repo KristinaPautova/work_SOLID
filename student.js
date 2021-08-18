@@ -11,8 +11,16 @@ class Student extends Person {
         this.studentGroup = studentGroup
     }
 
-    addParent(parent){
+    getStudentGroup() {
+        return this.studentGroup
+    }
+
+    addParent(parent) {
         this.parents.push(parent);
+    }
+
+    getParent() {
+        return this.parents
     }
 }
 
