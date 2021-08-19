@@ -9,7 +9,7 @@ class TeacherRole {
     }
 
     getSubject() {
-       return  this.subject
+       return this.subject
     }
 
     setTeacher(teacher) {
@@ -17,6 +17,6 @@ class TeacherRole {
     }
 
     getTeacher() {
-        return  this.teacher
+        return this.teacher
     }
 }

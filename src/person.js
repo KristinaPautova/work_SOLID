@@ -1,9 +1,9 @@
   class Person {
-    constructor(name, contact) {
+    constructor(name, contact, isActive, dateOfBirth) {
         this.name = name;
         this.contact = contact;
-        this.isActive = false;
-        this.dateOfBirth = null
+        this.isActive = isActive;
+        this.dateOfBirth = dateOfBirth
     }
 
     setName(name) {
@@ -16,12 +16,13 @@
     setContact(contact) {
         this.contact = contact
     }
+
     getContact() {
         return this.contact
     }
 
-    setIsActive() {
-        this.isActive = !this.isActive
+    setIsActive(active) {
+        this.isActive = active
     }
 
     getIsActive() {

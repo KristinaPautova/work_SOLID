@@ -1,11 +1,9 @@
 class StudentGroup {
-    constructor(level,groupNumber,student,teacher) {
+    constructor(level,groupNumber, teacherRoles, students) {
         this.level = level;
         this.groupNumber = groupNumber;
-        this.student = student;
-        this.teacher = teacher
-        this.teacherRoles = [];
-        this.students = [];
+        this.teacherRoles = teacherRoles || [];
+        this.students =  students || [];
     }
 
     setLevel(level) {
@@ -24,8 +22,8 @@ class StudentGroup {
         return this.groupNumber;
     }
 
-    setStudents(student) {
-        this.student = student;
+    setStudents(students) {
+        this.students = students;
     }
 
     addStudent(student) {
@@ -36,13 +34,12 @@ class StudentGroup {
         return this.students
     }
 
-    setTeacherRoles(teacher) {
-        this.teacher = teacher
+    setTeacherRoles(teacherRoles) {
+        this.teacherRoles = teacherRoles
     }
 
-
-    addTeacherRole(teacher) {
-        this.teacherRoles.push(teacher)
+    addTeacherRole(teacherRole) {
+        this.teacherRoles.push(teacherRole)
     }
 
     getTeacherRoles() {

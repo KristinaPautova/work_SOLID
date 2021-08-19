@@ -1,7 +1,7 @@
 const Person = require('./person')
 
 class Parent extends Person {
-    constructor(name, contact) {
+    constructor(name, contact, whoWork) {
         super(name,contact);
         this.whoWork = whoWork;
     }
