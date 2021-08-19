@@ -1,4 +1,4 @@
-class position  {
+class Position  {
     constructor(quote, name) {
         this.quote = quote;
         this.name = name;
@@ -19,3 +19,5 @@ class position  {
         return this.name
     }
 }
+
+module.exports = Position;

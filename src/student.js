@@ -1,10 +1,11 @@
 const Person = require('./person')
 
 class Student extends Person {
-    constructor(name, contact, isActive, dateOfBirth, studentGroup, parents) {
+    constructor(studentGroup, parents,name, contact, isActive, dateOfBirth ) {
         super(name, contact, isActive, dateOfBirth);
         this.studentGroup = studentGroup;
         this.parents = parents || []
+        this.name = name;
     }
 
     setStudentGroup(studentGroup) {
@@ -19,7 +20,9 @@ class Student extends Person {
         this.parents.push(parent);
     }
 
-    getParents() {
+    getParent() {
         return this.parents
     }
 }
+
+module.exports = Student

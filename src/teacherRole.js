@@ -20,3 +20,5 @@ class TeacherRole {
         return this.teacher
     }
 }
+
+module.exports = TeacherRole;

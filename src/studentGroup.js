@@ -47,3 +47,5 @@ class StudentGroup {
     }
 
 }
+
+module.exports = StudentGroup;
