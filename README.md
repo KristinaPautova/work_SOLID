@@ -1,26 +1,26 @@
 # Models
 ## Person
-###Props
+### Props
 name, contact, isActive, dateOfBirth
-###Methods
+### Methods
 setName, getName, setContact, getContact, ...etc
 
 ## Parent
-###Props
+### Props
 Extend props name, contact from Person class </br>
 whoWork
-###Methods
+### Methods
 setWhoWork
 
 ## Student
-###Props
+### Props
 Extend props name, contact, isActive, dateOfBirth from Person class </br>
 studentGroup, parents - array
-###Methods
+### Methods
 setStudentGroup, addParent
 
 ## Teacher
-###Props
+### Props
 Extend props all props from Person class </br>
 subjects - array, studentGroup - array, salaries, position
 ###Methods
@@ -28,33 +28,33 @@ setSalaries, setPosition
 
 
 ## Teacher Role
-###Props
+### Props
 subject, teacher
-###Methods
+### Methods
 setSubject, setTeacher
 
-##Book
-###Props
+## Book
+### Props
 subject, name
-###Methods
+### Methods
 setName
 
-##Subject
-###Props
+## Subject
+### Props
 name, level, hours, books, quote </br>
 books is an array
-###Methods
+### Methods
 addBook method is adding book to the books array </br>
 setName, setLevel, setHours, setBooks, setQuote
 
-##Position
-###Props
+## Position
+### Props
 quote, name
-###Methods
+### Methods
 setQuote, setName
 
-##StudentGroup
-###Props
+## StudentGroup
+### Props
 level, groupNumber, teacherRoles and students are arrays
-###Methods
+### Methods
 setLevel, setGroupNumber, setStudents, setTeacherRoles, addStudent, addTeacherRole
