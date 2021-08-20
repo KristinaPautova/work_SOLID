@@ -5,7 +5,6 @@ class Student extends Person {
         super(name, contact, isActive, dateOfBirth);
         this.studentGroup = studentGroup;
         this.parents = parents || []
-        this.name = name;
     }
 
     setStudentGroup(studentGroup) {
