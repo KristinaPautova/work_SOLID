@@ -1,7 +1,7 @@
 const Person = require('./person')
 
 class Parent extends Person {
-    constructor(name, contact, whoWork) {
+    constructor(whoWork,name, contact ) {
         super(name,contact);
         this.whoWork = whoWork;
     }
@@ -15,3 +15,5 @@ class Parent extends Person {
     }
 
 }
+
+module.exports = Parent

@@ -12,3 +12,5 @@ class Book {
         return this.name
     }
 }
+
+module.exports = Book;

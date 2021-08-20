@@ -58,3 +58,19 @@ setQuote, setName
 level, groupNumber, teacherRoles and students are arrays
 ### Methods
 setLevel, setGroupNumber, setStudents, setTeacherRoles, addStudent, addTeacherRole
+# Tasks
+Learn patter builder <br/>
+Create file builder and create base structure </br>
+Run builder file
+
+## What builder file should do
+Create books </br>
+Create Subjects  </br>
+Create StudentGroups  </br>
+Create Teacher Position  </br>
+Create Teachers  </br>
+Create Parents  </br>
+Create Student  </br>
+Create Teacher Role  </br>
+Add student to StudentGroup  </br>
+Add teacher role to StudentGroup  </br>

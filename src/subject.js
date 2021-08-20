@@ -4,7 +4,7 @@ class Subject {
         this.level = level;
         this.hours = hours;
         this.quote = quote;
-        this.books = [];
+        this.books = books || [];
     }
 
     setName(name) {
@@ -36,7 +36,7 @@ class Subject {
     }
 
     addBook(book) {
-        this.books.push(book);
+     this.books.push(book);
     }
 
     getBook() {
@@ -51,3 +51,5 @@ class Subject {
         return this.quote
     }
 }
+
+module.exports = Subject;

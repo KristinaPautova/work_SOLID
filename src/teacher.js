@@ -1,7 +1,7 @@
 const Person = require('./person')
 
 class Teacher extends Person {
-    constructor(salaries, position, subjects, studentGroup) {
+    constructor(salaries, position, subjects, studentGroup,name, contact, isActive, dateOfBirth) {
         super(name, contact, isActive, dateOfBirth);
         this.salaries = salaries;
         this.position = position;
@@ -25,3 +25,5 @@ class Teacher extends Person {
         return this.position
     }
 }
+
+module.exports = Teacher;
